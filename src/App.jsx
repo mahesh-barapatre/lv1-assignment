@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className='w-full h-full min-h-screen flex flex-col sm:flex-row'>
 
-    <div className='w-1/2 flex h-full min-h-screen flex-col items-center justify-center'>
+    <div className='w-full sm:w-1/2 flex h-full min-h-screen flex-col items-center justify-center'>
 
     <h1 className='text-4xl font-extrabold font-mono text-blue-600'>
       {
@@ -113,7 +113,7 @@ const App = () => {
     </div>
 
 
-    <div className="w-1/2 flex justify-center items-center">
+    <div className="w-full sm:w-1/2 flex justify-center items-center">
       <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp" alt="img"/>
     </div>
           
