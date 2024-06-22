@@ -24,7 +24,7 @@ const App = () => {
   };
 
   return (
-    <div className='w-full h-full min-h-screen flex flex-col sm:flex-row'>
+    <div className='w-full h-full sm:min-h-screen flex flex-col sm:flex-row p-3 sm:p-0'>
 
     <div className='w-full sm:w-1/2 flex h-full min-h-screen flex-col items-center justify-center'>
 
@@ -40,7 +40,7 @@ const App = () => {
         <AdminSummary formData={formData} />
         :
 
-        <form className='w-1/2' onSubmit={(e) => handleSubmit(e, submitForm)}>
+        <form className='w-full sm:w-1/2' onSubmit={(e) => handleSubmit(e, submitForm)}>
       
       <FormFields 
         fieldName={"Name"}
