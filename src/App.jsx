@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className='w-full h-full sm:min-h-screen flex flex-col sm:flex-row p-3 sm:p-0'>
 
-    <div className='w-full sm:w-1/2 flex h-full min-h-screen flex-col items-center justify-center'>
+    <div className='w-full sm:w-1/2 flex h-full py-3 sm:py-0 sm:min-h-screen flex-col items-center justify-center'>
 
     <h1 className='text-4xl font-extrabold font-mono text-blue-600'>
       {
